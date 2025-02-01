@@ -1,5 +1,4 @@
-number = [2,3,5,4,2,1]  #6
-
+number = [2,3,5,4,2,1] 
 
 # number.sort()
 # number.reverse()
@@ -11,6 +10,6 @@ for i in range(len(number)):
             number[i] = number[j]
             number[j] = temp
 
-print(number[1])
+print("The 2nd highest number:",number[1])
 
  
