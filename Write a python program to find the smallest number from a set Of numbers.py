@@ -8,7 +8,7 @@ for i in range(len(number)):
             temp = number[i]
             number[i] = number[j]
             number[j] = temp
-print(number[0])
+print("The smallest number:",number[0])
 
  
         
