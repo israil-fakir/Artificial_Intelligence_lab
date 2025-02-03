@@ -1,6 +1,6 @@
 <ul>
 <li>Write a python program to find the factorial of a number using for loop.</li>
-<br><b>Output</b><br>
+<b>Output: </b><br>
 <img src="outputs\Fact_output_!.png"/>
 <!-- ![screenshot](output/fa.png) -->
 
