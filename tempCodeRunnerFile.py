@@ -1,12 +1,12 @@
-number = [1, 2, 3, 4, 5, 6, 7, 8]
-
-even_sum = 0
-odd_sum = 0
-for i in number:
-    if(i % 2 == 0):
-        even_sum = even_sum + i
+def larger_finder(x,y):
+    if(x>y):
+        print("The largest number :",x)
     else:
-        odd_sum = odd_sum + i
+        print("The largest number :",y)
 
-print("Even Sum",even_sum)
-print("Odd sum",odd_sum)
+
+print("Enter the two number to find largest number")
+
+a = int(input("1st number :"))
+b = int(input("2nd number :"))
+larger_finder(a,b)
